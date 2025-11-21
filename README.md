@@ -16,13 +16,14 @@ Grant No. BR24992852 – “ Intelligent models and methods of Smart City digita
 
 ---
 
- 2. Project Structure
+ ## 2. Project Structure
 
+```text
 SmartCityEDA/
-├─ data/                 # CSV files (one per day)
-├─ plots/                # Automatically saved charts
-├─ smart_city_eda.ipynb  # Jupyter notebook (EDA)
-└─ README.md             # report
+├─ data/                  # CSV files (one per day)
+├─ plots/                 # Automatically saved charts
+├─ smart_city_eda.ipynb   # Jupyter notebook (EDA)
+└─ README.md              # Report / documentation
 
  3. Steps in EDA (Notebook Summary)
 
