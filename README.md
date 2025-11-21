@@ -18,7 +18,6 @@ Grant No. BR24992852 – “ Intelligent models and methods of Smart City digita
 
  2. Project Structure
 
-  text
 SmartCityEDA/
 ├─ data/                 # CSV files (one per day)
 ├─ plots/                # Automatically saved charts
@@ -132,13 +131,19 @@ Predict humidity or temperature trends using time-series models
 9. How to Run
 
  Create virtual environment
+
 python -m venv .venv
-.venv\\Scripts\\Activate.ps1
+
+ Activate virtual environment
+
+..venv\\Scripts\\Activate.ps1
 
  Install dependencies
+
 pip install pandas matplotlib seaborn
 
  Open the notebook in VS Code
+
 smart_city_eda.ipynb
 
 
