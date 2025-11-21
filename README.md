@@ -45,13 +45,50 @@ Save plots automatically for the README
 
 4. Key Observations
 
-Light values increase between 6 AM and 6 PM, showing a strong day–night cycle.
+4.1 Daily Behaviour of Sensors
 
-Humidity decreases when temperature rises, showing an inverse relationship.
+The light sensor clearly shows a day–night cycle: values are very low during the night and rise sharply during daytime hours.
 
-Peak temperature occurs around 2 PM, matching typical outdoor weather patterns.
+Temperature increases during the day and drops at night, following a realistic environmental pattern.
 
-pH and electrical conductivity remain stable, suggesting controlled environment.
+Humidity tends to be higher at night and lower during the warmest periods, showing the expected interaction between air temperature and moisture.
+
+ 4.2 Hourly Patterns Across the Week
+When averaging by hour over all days, light peaks between late morning and mid-afternoon**, matching typical sunlight intensity.
+
+Temperature also peaks around the same hours, confirming that higher light exposure is linked to higher temperature.
+
+Humidity dips during the hottest hours, then recovers later in the evening and at night.
+
+ 4.3 Correlation Between Temperature, Humidity, and Light
+ There is a negative relationship between temperature and humidity: as temperature rises, humidity generally decreases.
+ 
+ There is a positive relationship between temperature and light: brighter periods tend to be warmer.
+
+Humidity and light show an inverse relationship**, meaning bright, sunny hours are often less humid than cooler, darker periods.
+
+These correlations support the idea that the sensors are capturing realistic physical behaviour and can be trusted for further analysis or predictive modelling.
+
+ 4.4 Sensor Statistics and Stability
+Temperature, humidity, and light** show meaningful variation over time, which is expected in a real environment.
+
+pH and electrical conductivity (EC) remain relatively stable over time, which suggests that the monitored medium (e.g., water or soil) is under controlled conditions.
+
+ No extreme outliers were observed in the main variables, so the dataset is suitable for modelling, forecasting, or anomaly detection.
+
+4.5 Overall Conclusion
+The EDA confirms that:
+
+The IoT sensor network is working correctly and capturing consistent environmental patterns.
+
+The data reflects **natural daily cycles (day vs night, warm vs cool, dry vs humid).
+
+The dataset is a good foundation for future smart-city applications**, such as:
+  - Environmental monitoring dashboards  
+  - Early-warning systems  
+  - Energy and irrigation optimization  
+  - Time-series forecasting models
+
 
 5. Sample Plots
 
